@@ -3,7 +3,7 @@
   margin: 0px 10px 10px 10px;
   width: 33%;
   box-sizing: border-box; /* Ensures padding is included in the width */
-  border-radius: 0px 0px 30px 30px;
+  border-radius: 0px 0px 40px 40px;
 }
 
 .catalog-column-title {
@@ -38,17 +38,19 @@
 
 }
 .catalog-column button {
-  width: 100%;
+  width: 104%;
+  padding: 10px;
   transform: translateX(-10px);
-  margin: 0;
-  border-radius: 0px;
-  border-top: 0px;
-  border-left:  0px;
-  border-right: 0px;
-  border-bottom: 10px solid transparent;
-  border-color: white;
-  background-color: #000000a8;
-  font-size: 24px;
+  margin: 0 0px;
+  border-radius: 25px;
+  height: 80px;
+  border:0px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 28px;
+}
+.catalog-column button:hover {
+  background-color: #ff73dc;
 }
 .catalog-column span {
   padding: 10px;

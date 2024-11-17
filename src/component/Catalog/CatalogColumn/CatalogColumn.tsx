@@ -11,8 +11,8 @@ const CatalogColumn: React.FC = () => {
         <div className="catalog-item">Опция 3</div>
         <div className="catalog-item">Опция 4</div>
         <div className="catalog-item">Опция 5</div>
-      </span>
       <button className='button-40'>Заказать</button>
+      </span>
     </div>
   );
 };
