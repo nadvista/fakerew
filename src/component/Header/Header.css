@@ -13,7 +13,7 @@
 }
 
 .button-40 {
-  background-color: white;
+  background-color: #ffc5f0;
   border: 1px solid transparent;
   border-color: white;
   border-radius: .75rem;
@@ -41,6 +41,8 @@
 
 .button-40:hover {
   border-color: #374151;
+  background-color: #ff8be2;
+  transition: 0.5s linear;
 }
 
 .button-40:focus {

@@ -1,8 +1,6 @@
 .catalog-title {
     text-align: center;
     font-size: 24px;
-    width: 90.1%;
-    margin: 0 auto;
   }
 
 .catalog-title h1 {
@@ -12,6 +10,6 @@
   color: white;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
-
+  border-bottom: 1px solid transparent;
   border-color: white;
 }

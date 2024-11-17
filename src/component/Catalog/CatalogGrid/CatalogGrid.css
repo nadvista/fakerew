@@ -1,8 +1,6 @@
 .catalog-grid {
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    margin: 0 auto;
     background-color: #000000b0;
     border-left: 1px solid transparent;
     border-right: 1px solid transparent;

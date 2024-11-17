@@ -1,14 +1,14 @@
 .catalog-column {
   padding: 10px 10px 10px 10px;
   margin: 0px 10px 10px 10px;
-  width: 33%;
+  width: 32%;
   box-sizing: border-box; /* Ensures padding is included in the width */
-  border-radius: 0px 0px 40px 40px;
+  background-color: #0c0c0c;
 }
 
 .catalog-column-title {
-  background-color: #000000ea;
-  color: #fff;
+  background-color: #ffffffea;
+  color: #000000;
   padding: 10px;
   margin: 0; /* Remove side margins */
   width: 100%; /* Full width + padding from the parent */
@@ -31,8 +31,6 @@
   height: 80px;
   font-size: 24px;
 
-  border-left: 1px solid transparent;
-  border-right: 1px solid transparent;
   border-bottom: 1px solid transparent;
   border-color: white;
 }
@@ -44,12 +42,7 @@
   border-radius: 25px;
   height: 80px;
   border:0px;
-  background-color: #ffffff;
-  color: black;
   font-size: 28px;
-}
-.catalog-column button:hover {
-  background-color: #ff73dc;
 }
 .catalog-column span {
   padding: 10px;
