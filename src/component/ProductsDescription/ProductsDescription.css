@@ -1,0 +1,135 @@
+.products-desctiption {
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 200px;
+    margin-top: 200px;
+
+}
+
+.products-desctiption-title {
+    border-radius: 40px 40px 0px 0px;
+    background-color: #000000b0;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+
+    border-color: white;
+}
+.products-desctiption-title h1 {
+    border-radius: 40px 40px 0px 0px;
+    padding-top: 30px;
+    background-color: #000000ea;
+    color: white;
+}
+
+.products-description-text {
+    text-align:justify;
+    font-size: 24px;
+    width: 90%;
+    margin: 0 5%;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.products-desctiption-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-description-bests {
+    width: 65%;
+    color: white;
+
+    border-left: 1px solid transparent;
+    border-color: white;
+}
+
+.products-description-bests-item {
+    text-align: justify;
+    font-size: 32px;
+    font-weight: 600;
+    border-left: 15px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+
+
+    border-color: white;
+    color: white;
+    margin: 10px;
+    padding: 20px 0px 20px 10%;
+
+}
+.products-description-bests-item:hover .products-description-bests-item-hidden{
+    display: block;
+}
+
+.products-description-bests-item-hidden {
+    display: none;
+    font-size: 16px;
+    border-top: 1px solid transparent;
+    border-color: white;
+    margin-top: 30px;
+}
+
+.products-description-examle {
+    width: 34.5%;
+    color: white;
+
+    border-right: 1px solid transparent;
+    border-color: white;
+}
+
+.products-description-examle-userinfo
+{
+    margin: auto 50px;
+    align-items: center;
+}
+
+.products-description-examle-userinfo-avatar{
+    width: 30%;
+    height: auto;
+    filter: invert()
+}
+
+.products-description-examle-userinfo-info {
+    text-align: start;
+    width: 69%;
+}
+
+.products-description-examle-userinfo-info h1 {
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-color: white;
+}
+
+.products-description-examle-userinfo-info img {
+    display: flex;
+    width: 45%;
+    margin: 0 auto;
+    filter: invert();
+}
+
+.products-description-examle-text {
+    text-align: justify;
+    color: white;
+    margin: auto 50px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-top: 1px solid transparent;
+    border-color: white;
+}
+
+.products-desctiption-item {
+    text-align: center;
+    box-sizing: border-box; 
+    background-color: #000000b0;
+}

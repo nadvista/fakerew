@@ -1,0 +1,58 @@
+.catalog-column {
+  padding: 10px 10px 10px 10px;
+  margin: 0px 10px 10px 10px;
+  width: 33%;
+  box-sizing: border-box; /* Ensures padding is included in the width */
+  border-radius: 0px 0px 30px 30px;
+}
+
+.catalog-column-title {
+  background-color: #000000ea;
+  color: #fff;
+  padding: 10px;
+  margin: 0; /* Remove side margins */
+  width: 100%; /* Full width + padding from the parent */
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  transform: translateX(-10px);
+  border-bottom: 1px solid transparent;
+  border-color: white;
+}
+
+.catalog-item {
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  transform: translateX(-10px);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  height: 80px;
+  font-size: 24px;
+
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-color: white;
+
+}
+.catalog-column button {
+  width: 100%;
+  transform: translateX(-10px);
+  margin: 0;
+  border-radius: 0px;
+  border-top: 0px;
+  border-left:  0px;
+  border-right: 0px;
+  border-bottom: 10px solid transparent;
+  border-color: white;
+  background-color: #000000a8;
+  font-size: 24px;
+}
+.catalog-column span {
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  transform: translateX(-10px);
+}
