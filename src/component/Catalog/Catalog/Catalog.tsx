@@ -5,7 +5,7 @@ import CatalogTitle from '../CatalogTitle/CatalogTitle';
 
 const Catalog: React.FC = () => {
   return (
-    <div className='catalog'>
+    <div className='catalog' id = 'catalog'>
         <CatalogTitle />
         <CatalogGrid />
     </div>

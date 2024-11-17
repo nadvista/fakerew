@@ -1,8 +1,10 @@
 import React from 'react';
 import './ProductsDescription.css';
+import { useRef } from 'react'
+
 const ProductsDescription: React.FC = () => {
   return (
-    <div className='products-desctiption'> 
+    <div className='products-desctiption' id='descriptionStart'> 
         <div className='products-desctiption-title'> 
             <h1>Чем мы занимаемся</h1>
 
