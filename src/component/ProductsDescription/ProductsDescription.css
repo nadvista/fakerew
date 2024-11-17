@@ -63,15 +63,20 @@
 
 }
 .products-description-bests-item:hover .products-description-bests-item-hidden{
-    display: block;
+    /*display: block;*/
+    opacity: 1;
+    font-size: 16px;
+    transition: .3s linear;
 }
 
 .products-description-bests-item-hidden {
-    display: none;
-    font-size: 16px;
+    /*display: none;*/
+    opacity: 0;
+    font-size: 0px;
     border-top: 1px solid transparent;
     border-color: white;
     margin-top: 30px;
+    transition: .3s linear;
 }
 
 .products-description-examle {

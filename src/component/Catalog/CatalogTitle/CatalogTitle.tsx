@@ -4,7 +4,7 @@ import './CatalogTitle.css';
 const CatalogTitle: React.FC = () => {
   return (
     <div className="catalog-title">
-      <h1>Каталог</h1>
+      <h1>Тарифы</h1>
     </div>
   );
 };

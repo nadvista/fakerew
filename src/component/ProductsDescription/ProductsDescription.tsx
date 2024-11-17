@@ -27,9 +27,6 @@ const ProductsDescription: React.FC = () => {
                 <div className='products-description-bests-item'>Высокая скорость выполнения
                     <div className='products-description-bests-item-hidden'>Выполняем заказы в течение 2-х дней</div>
                 </div>
-                <div className='products-description-bests-item'>Гарантия результата
-                    <div className='products-description-bests-item-hidden'>Написанные нами отзывы гарантированно добавят не менее 10% к количеству ваших заказов</div>
-                </div>
                 <div className='products-description-bests-item'>Высокое качество отзывов
                     <div className='products-description-bests-item-hidden'>Все наши отзывы тщательно фильтруются, каждый из них выглядит так, будто написан реальным человеком</div>
                 </div>
