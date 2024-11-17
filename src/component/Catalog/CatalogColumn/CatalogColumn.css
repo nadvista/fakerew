@@ -1,9 +1,10 @@
 .catalog-column {
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 5px 10px;
   margin: 0px 10px 10px 10px;
   width: 32%;
   box-sizing: border-box; /* Ensures padding is included in the width */
   background-color: #0c0c0c;
+  border-radius: 40px;
 }
 
 .catalog-column-title {
