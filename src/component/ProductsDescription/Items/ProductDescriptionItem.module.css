@@ -1,0 +1,31 @@
+.products_description_bests_item {
+    text-align: justify;
+    font-size: 32px;
+    font-weight: 600;
+    border-left: 15px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+
+
+    border-color: white;
+    color: white;
+    margin: 10px;
+    padding: 20px 0px 20px 10%;
+
+}
+.products_description_bests_item:hover .products_description_bests_item_hidden{
+    /*display: block;*/
+    opacity: 1;
+    font-size: 16px;
+    transition: .3s linear;
+}
+
+.products_description_bests_item_hidden {
+    /*display: none;*/
+    opacity: 0;
+    font-size: 0px;
+    border-top: 1px solid transparent;
+    border-color: white;
+    margin-top: 30px;
+    transition: .3s linear;
+}

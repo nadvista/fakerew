@@ -9,7 +9,6 @@ import Catalog from '../component/Catalog/Catalog/Catalog';
 function Home() {
   return (
     <div>
-      <Header />
       <PageTitle />
       <ProductsDescription />
       <Catalog />

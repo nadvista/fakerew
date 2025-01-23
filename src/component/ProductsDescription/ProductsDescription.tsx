@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './ProductsDescription.module.css';
+import ProductDescriptionItem from './Items/ProductDescriptionItem'
 import { useRef } from 'react'
 
 const ProductsDescription: React.FC = () => {
@@ -21,21 +22,11 @@ const ProductsDescription: React.FC = () => {
         <div className={styles.products_desctiption_grid}>
             <div className={styles.products_description_bests + " " + styles.products_desctiption_item}>
                 <h1>Преимущества работы с нами</h1>
-                <div className={styles.products_description_bests_item}>Лучшая цена на рынке
-                    <div className={styles.products_description_bests_item_hidden}>Да, это так, наши цены в среднем на 99% ниже чем у конкурентов</div>
-                </div>
-                <div className={styles.products_description_bests_item}>Высокая скорость выполнения
-                    <div className={styles.products_description_bests_item_hidden}>Выполняем заказы в течение 2-х дней</div>
-                </div>
-                <div className={styles.products_description_bests_item}>Высокое качество отзывов
-                    <div className={styles.products_description_bests_item_hidden}>Все наши отзывы тщательно фильтруются, каждый из них выглядит так, будто написан реальным человеком</div>
-                </div>
-                <div className={styles.products_description_bests_item}>Возможность внесения правок
-                    <div className={styles.products_description_bests_item_hidden}>Оперативно изменим непонравившиеся вам отзывы</div>
-                </div>
-                <div className={styles.products_description_bests_item}>Отсутствие повторов
-                    <div className={styles.products_description_bests_item_hidden}>Все наши отзывы не похожи друг на друга</div>
-                </div>
+                <ProductDescriptionItem text='Лучшая цена на рынке' hidden_text='Да, это так, наши цены в среднем на 99% ниже чем у конкурентов' />
+                <ProductDescriptionItem text='Высокая скорость выполнения' hidden_text='Выполняем заказы в течение 2-х дней' />
+                <ProductDescriptionItem text='Высокое качество отзывов' hidden_text='Все наши отзывы тщательно фильтруются, каждый из них выглядит так, будто написан реальным человеком' />
+                <ProductDescriptionItem text='Возможность внесения правок' hidden_text='Оперативно изменим непонравившиеся вам отзывы' />
+                <ProductDescriptionItem text='Отсутствие повторов' hidden_text='Все наши отзывы не похожи друг на друга' />
             </div>
 
             <div className={styles.products_description_examle + " " + styles.products_desctiption_item}>
