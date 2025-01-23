@@ -1,8 +1,8 @@
 import React from 'react';
-import './Header.css';
+import styles from './Header.module.css';
 import description from '../ProductsDescription/ProductsDescription'
 import SimpleButton from '../SimpleButton/SimpleButton';
-
+import { useNavigate } from 'react-router-dom';
 
 const scrollById = (id) => {
   var elemPos = document.getElementById(id)?.getBoundingClientRect().top;
@@ -26,10 +26,11 @@ const scrollToHome = () => {
 
 const Header: React.FC = () => {
   return (
-    <header className="header" id='header'>
+    <header className={styles.header} id='header'>
       <SimpleButton text='Домашняя страница' onclick={scrollToHome} />
       <SimpleButton text='О нас' onclick={() => scrollById('descriptionStart')} />
-      <SimpleButton text='Каталог' onclick={() => scrollById('catalog')} />
+      <SimpleButton text='Тарифы' onclick={() => scrollById('catalog')} />
+      <SimpleButton text='Калькулятор стоимости' onclick={() => {}} />
       <SimpleButton text='Отзывы' onclick={() => {}} />
     </header>
   );

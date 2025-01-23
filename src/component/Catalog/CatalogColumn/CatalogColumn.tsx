@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './CatalogColumn.module.css';
-import '../../Header/Header.css';
 import '../../SimpleButton/SimpleButton'
 import SimpleButton from '../../SimpleButton/SimpleButton';
 interface ProductData {

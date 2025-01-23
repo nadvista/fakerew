@@ -16,6 +16,4 @@ function Home() {
   );
 }
 
-//css модули, использовать шрифты, css bam, button40 index css загуглить ошибку main tsx, вынести header в app.tsx 
-
 export default Home;
