@@ -2,7 +2,7 @@
   z-index: 1;
   display: flex;
   justify-content: right;
-  background-color: #000000fa;
+  background-color: #000000ef;
   height: 80px;
   position: fixed; 
   top: 0; 
@@ -13,7 +13,7 @@
 }
 
 .button-40 {
-  background-color: #ffc5f0;
+  background-color: #ffc5e2;
   border: 1px solid transparent;
   border-color: white;
   border-radius: .75rem;
@@ -41,7 +41,7 @@
 
 .button-40:hover {
   border-color: #374151;
-  background-color: #ff8be2;
+  background-color: #ff9dce;
   transition: 0.5s linear;
 }
 
