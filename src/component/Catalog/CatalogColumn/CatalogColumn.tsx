@@ -1,7 +1,8 @@
 import React from 'react';
-import './CatalogColumn.css';
+import styles from './CatalogColumn.module.css';
 import '../../Header/Header.css';
-
+import '../../SimpleButton/SimpleButton'
+import SimpleButton from '../../SimpleButton/SimpleButton';
 interface ProductData {
   title : string;
   options : Array<string>;
@@ -9,13 +10,13 @@ interface ProductData {
 
 const CatalogColumn: React.FC<ProductData> = ({title, options}) => {
   return (
-    <div className="catalog-column">
-      <div className="catalog-column-title">{title}</div> {/* Title block */}
+    <div className={styles.catalog_column}>
+      <div className={styles.catalog_column_title}>{title}</div> {/* Title block */}
       <span>
         {
-          options.map(e => <div className="catalog-item">{e}</div>)
+          options.map(e => <div className={styles.catalog_item}>{e}</div>)
         }
-      <button className='button-40'>Заказать</button>
+      <SimpleButton text='Заказать' onclick={() => {}} />
       </span>
     </div>
   );

@@ -1,4 +1,4 @@
-.catalog-column {
+.catalog_column {
   padding: 10px 10px 5px 10px;
   margin: 0px 10px 10px 10px;
   width: 32%;
@@ -7,7 +7,7 @@
   border-radius: 40px;
 }
 
-.catalog-column-title {
+.catalog_column_title {
   background-color: #ffffffea;
   color: #000000;
   padding: 10px;
@@ -21,7 +21,7 @@
   border-color: white;
 }
 
-.catalog-item {
+.catalog_item {
   color: #fff;
   padding: 10px;
   width: 100%;
@@ -35,7 +35,7 @@
   border-bottom: 1px solid transparent;
   border-color: white;
 }
-.catalog-column button {
+.catalog_column button {
   width: 104%;
   padding: 10px;
   transform: translateX(-10px);
@@ -45,7 +45,7 @@
   border:0px;
   font-size: 28px;
 }
-.catalog-column span {
+.catalog_column span {
   padding: 10px;
   margin: 0;
   width: 100%;

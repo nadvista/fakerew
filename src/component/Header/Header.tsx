@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import description from '../ProductsDescription/ProductsDescription'
+import SimpleButton from '../SimpleButton/SimpleButton';
 
 
 const scrollById = (id) => {
@@ -26,10 +27,10 @@ const scrollToHome = () => {
 const Header: React.FC = () => {
   return (
     <header className="header" id='header'>
-      <button className='button-40' onClick={scrollToHome}>Домашняя страница</button>
-      <button className='button-40' onClick={() => scrollById('descriptionStart')}>О нас</button>
-      <button className='button-40' onClick={() => scrollById('catalog')}>Каталог</button>
-      <button className='button-40'>Отзывы</button>
+      <SimpleButton text='Домашняя страница' onclick={scrollToHome} />
+      <SimpleButton text='О нас' onclick={() => scrollById('descriptionStart')} />
+      <SimpleButton text='Каталог' onclick={() => scrollById('catalog')} />
+      <SimpleButton text='Отзывы' onclick={() => {}} />
     </header>
   );
 };

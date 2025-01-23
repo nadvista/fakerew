@@ -1,9 +1,10 @@
 import React from 'react';
-import './PageTitle.css';
+import styles from './PageTitle.module.css';
+
 const PageTitle: React.FC = () => {
   return (
-    <div className="page-title">
-        <div className="page-title-label"> Фальшивые отзывы </div>
+    <div className={styles.page_title}>
+        <div className={styles.page_title_label}> Фальшивые отзывы </div>
     </div>
   );
 };

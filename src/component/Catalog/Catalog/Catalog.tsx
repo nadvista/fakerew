@@ -1,11 +1,11 @@
 import React from 'react';
-import './Catalog.css';
+import styles from './Catalog.module.css';
 import CatalogGrid from '../CatalogGrid/CatalogGrid';
 import CatalogTitle from '../CatalogTitle/CatalogTitle';
 
 const Catalog: React.FC = () => {
   return (
-    <div className='catalog' id = 'catalog'>
+    <div className={styles.catalog} id = 'catalog'>
         <CatalogTitle />
         <CatalogGrid />
     </div>
