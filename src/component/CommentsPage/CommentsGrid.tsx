@@ -10,7 +10,7 @@ function CommentsGrid() {
 
 
     const mistral = new Mistral({
-        apiKey: "JFQijZ5M2deWlrrryH4S2o4MLUebIvcA",
+        apiKey: "JFQijZ5M2deWlrrryH4S2o4MLUebIvcAE",
     });
 
     const getWrappedRequest = () => {
