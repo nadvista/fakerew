@@ -3,14 +3,12 @@ import PageTitle from '../component/PageTitle/PageTitle';
 import ProductsDescription from '../component/ProductsDescription/ProductsDescription';
 import Catalog from '../component/Catalog/Catalog/Catalog';
 
-function Home() {
+function Calculate() {
   return (
     <div>
-      <PageTitle />
-      <ProductsDescription />
-      <Catalog />
+        Хеллоу мир
     </div>
   );
 }
 
-export default Home;
+export default Calculate;
