@@ -1,11 +1,10 @@
 import React from 'react';
-import PageTitle from '../component/PageTitle/PageTitle';
-import ProductsDescription from '../component/ProductsDescription/ProductsDescription';
-import Catalog from '../component/Catalog/Catalog/Catalog';
+import CommentsGrid from '../component/CommentsPage/CommentsGrid';
 
 function Comments() {
   return (
     <div>
+        <CommentsGrid />
     </div>
   );
 }

@@ -3,11 +3,10 @@ import styles from './ExampleMaker.module.css';
 import stylesDesc from '../ProductsDescription/ProductsDescription.module.css'
 import SimpleButton from '../SimpleButton/SimpleButton';
 import { Mistral } from "@mistralai/mistralai";
-import { url } from 'inspector';
 import ReviewExample from '../ReviewExample/ReviewExample';
-import { debug } from 'console';
 
 const ExampleMaker: React.FC = () => {
+  
   const [items, setItems] = useState<string[]>([]);
   const [productDescription, setProductDescription] = useState<string>('');
   const mistral = new Mistral({
