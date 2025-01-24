@@ -6,8 +6,11 @@ import { Mistral } from "@mistralai/mistralai";
 import ReviewExample from '../ReviewExample/ReviewExample';
 
 const ExampleMaker: React.FC = () => {
-  
+
   const [items, setItems] = useState<string[]>([]);
+  const [isloading, setloading] = useState<boolean>(true);
+  const [isprepared, setPrepared] = useState<boolean>(false);
+
   const [productDescription, setProductDescription] = useState<string>('');
   const mistral = new Mistral({
     apiKey: "JFQijZ5M2deWlrrryH4S2o4MLUebIvcA",
@@ -19,6 +22,7 @@ const ExampleMaker: React.FC = () => {
 
   const onTryClick = async () => {
     try {
+      setPrepared(true)
       const response = await mistral.chat.complete({
         model: "mistral-small-latest",
         stream: false,
@@ -32,6 +36,7 @@ const ExampleMaker: React.FC = () => {
 
       const data = response.choices[0].message.content;
       setItems([data]); // Предполагаем, что результат находится в data.choices[0].text
+      setloading(false)
     } catch (error) {
       console.error('There was a problem with the fetch operation:', error);
     }
@@ -53,6 +58,8 @@ const ExampleMaker: React.FC = () => {
       <div className={styles.input_description}>
         <div className={styles.reviews}>
           {
+            isprepared? (
+            isloading? <h1>Загрузка...</h1>:
             items.map((item, index) => {
               const splitted: string[] = item.split('\n');
               const name: string = splitted[0];
@@ -60,7 +67,7 @@ const ExampleMaker: React.FC = () => {
               const review: string = splitted[2];
 
               return (<ReviewExample name={name} city={city} text={review} title='Результат' />);
-            })
+            })) : <div/>
           }
         </div>
       </div>
