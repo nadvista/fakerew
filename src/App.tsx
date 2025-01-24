@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate  } from 'react-router-dom';
 import Home from './pages/Home';
-import Calculate from './pages/Calculate';
+import Example from './pages/Example';
 import Header from "./component/Header/Header";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Header />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/calculate" element={<Calculate />} />
+        <Route path="/example" element={<Example />} />
         <Route path="*" element={<Navigate to="/home" />} />
       </Routes>
     </BrowserRouter>

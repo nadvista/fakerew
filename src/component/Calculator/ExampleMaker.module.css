@@ -1,0 +1,47 @@
+.input_description
+{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+.text_input{
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid;
+    color: white;
+    font-size: 24px;
+    resize: none;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.products_desctiption {
+    margin: 0 auto;
+    width: 90%;
+    min-height: 600px;
+    margin-bottom: 200px;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.87);
+
+    border-radius: 40px;
+    border: 1px solid transparent;
+    border-color: white;
+}
+
+.products_desctiption_title {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 8px;
+
+    border-color: white;
+}
+.reviews {
+    size: 100%;
+    padding: 100px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

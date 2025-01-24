@@ -47,7 +47,7 @@ const Header: React.FC = () => {
       <SimpleButton text='Домашняя страница' onclick={() => {navigateHomeAndScroll('home')}} />
       <SimpleButton text='О нас' onclick={() => navigateHomeAndScroll('descriptionStart')} />
       <SimpleButton text='Тарифы' onclick={() => navigateHomeAndScroll('catalog')} />
-      <SimpleButton text='Калькулятор стоимости' onclick={() => {}} />
+      <SimpleButton text='Пример отзыва' onclick={() => {navigate('/example');}} />
       <SimpleButton text='Отзывы' onclick={() => {}} />
     </header>
   );

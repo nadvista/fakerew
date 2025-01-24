@@ -6,7 +6,7 @@ import Catalog from '../component/Catalog/Catalog/Catalog';
 function Home() {
   return (
     <div>
-      <PageTitle />
+      <PageTitle text='Фальшивые отзывы'/>
       <ProductsDescription />
       <Catalog />
     </div>

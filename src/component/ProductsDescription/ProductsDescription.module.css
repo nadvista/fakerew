@@ -64,52 +64,6 @@
     border-color: white;
 }
 
-.products_description_examle_userinfo
-{
-    margin: auto 50px;
-    align-items: center;
-}
-
-.products_description_examle_userinfo_avatar{
-    width: 30%;
-    height: auto;
-    filter: invert()
-}
-
-.products_description_examle_userinfo_info {
-    text-align: start;
-    width: 69%;
-}
-
-.products_description_examle_userinfo_info h1 {
-    margin-left: 10px;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    border-color: white;
-}
-
-.products_description_examle_userinfo_info img {
-    display: flex;
-    width: 45%;
-    margin: 0 auto;
-    filter: invert();
-}
-
-.products_description_examle_text {
-    text-align: justify;
-    color: white;
-    margin: auto 50px;
-    padding: 20px;
-    font-size: 20px;
-    margin-top: 20px;
-    border-top: 1px solid transparent;
-    border-color: white;
-}
-
 .products_desctiption_item {
     text-align: center;
     box-sizing: border-box; 
